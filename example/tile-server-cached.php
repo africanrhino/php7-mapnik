@@ -26,8 +26,8 @@ $Ac = [];
 
 $options['image']['x'] = $size;
 $options['image']['y'] = $size;
-$options['xml'] = '/usr/local/share/maps/tiles/project/BaseMap/dude.xml';
-$options['basePath'] = realpath('/usr/local/share/maps/tiles/project/BaseMap/');
+$options['xml'] = realpath(dirname(__FILE__)) . '/example.xml';
+$options['basePath'] = realpath(dirname(__FILE__) . '/../tests/data');
 
 
 //store via hashed filesytem
